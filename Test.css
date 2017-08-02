@@ -1,0 +1,32 @@
+div.places {
+	background-color:black; color:lavender; margin: 20px 0 20px 0; padding: 20px;
+}
+span.note {
+	font-size: 120%; color: Lightcoral;
+}
+body {
+	background-color:dimgrey; background-image: url();
+}
+h1, h2, h3, h4, h5, h6   {
+	color:linen;
+}
+p    {
+	color:honeydew; font-family: 'Bellefair', serif; font-size:14pt;
+}
+p.red {
+	color: maroon;
+}
+a:link {
+	color:blue; background-color:transparent; text-decoration:underline;
+}
+a:hover {
+	color:red; background-color: transparent; text-decoration: underline;
+}
+table {
+	font-family: arial, sans-serif; border-collapse: collapse; width: 100%
+}
+td, tr {
+	border: 1px solid black; text-align: left; padding: 5px;
+}
+tr:nth-child(even) {
+	background-color: grey;

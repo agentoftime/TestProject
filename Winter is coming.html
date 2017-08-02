@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<title> Winter is Coming </title>
+	<meta charset="UTF-8">
+	<meta name="Description" content="Test page">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="T.J. Cobb">
+	<meta http-equiv="refresh" content="90"> <!-- refreshes document every 90 seconds -->
+	<meta name="veiwport" content="width=device-width, initial-scale=1.0"> <!-- width=device width sets the width of page to follow the screen width of device. initial-scale=1.0 sets initial zoom level when page is first loaded by browser -->
+	<style>
+		div.places {background-color:black; color:lavender; margin: 20px 0 20px 0; padding: 20px;}
+		span.note {font-size: 120%; color: Lightcoral;}
+		body {background-color:dimgrey;}
+		h1   {color:linen;}
+		h2   {color:linen;}
+		h3   {color:linen;}
+		h4   {color:linen;}
+		h5   {color:linen;}
+		p    {color:honeydew; font-family: 'Bellefair', serif; font-size:14pt;}
+		p.red {color: maroon;}
+		a:link {color:blue; background-color:transparent; text-decoration:underline;}
+		a:hover {color:red; background-color: transparent; text-decoration: underline;}
+		table {font-family: arial, sans-serif; border-collapse: collapse; width: 100%}
+		th {background-color: navy; color:linen;}
+		td, tr {border: 1px solid black; text-align: left; padding: 5px;}
+		tr:nth-child(even) {background-color: grey;}
+	</style>
+	<link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
+</head>
+	<!-- 
+	The <head> element is a container for metadata. HTML metadata is data about the HTML document and is not displayed. <head> element goes between the <html> and <body> element 
+
+	Can link to style sheets located in html folder on current site
+	Example : <link rel="stylesheet" type="text/css" href="mystyle.css">
+
+	See CSSexample.css for more notes on links
+
+	<title> element is required. Defines title in the browser tab, provides title for page when added to favorites, displays title for page in search engine results.
+	-->
+
+<body>
+	<h1>Winter is Coming</h1>
+	<p> Random information and stories based off of the Ice and Fire series by George R.R. Martin. </p>
+
+	<h2>In the land of Westeros...</h2>
+
+	<p>The Starks of Winterfell's family words echo in <em>your</em> mind.</p>
+	<p>Another phrase comes to you, "The night is <strong>dark</strong> and full of terrors."</p>
+	It would make sense both, semi-depressing, sayings would come into your mind now of all times. <br>
+	You <em>are</em> about to die afterall.
+
+	<!-- <h1> through <h6> are heading elements. <p> define paragraphs with the closing </p> defining that the paragraph is over. <strong> element makes the inbetween text bold, while the <em> element italizes the text -->
+
+<div style="background-color:dimgrey;color:indigo;padding:10px;">
+	<h2>Beyond the Wall</h2>
+
+	<p>Where the dead rise, cold and with disdain for the living, no one with a pulse is truly safe.</p>
+
+	<h3> Alive for now Characters </h3>
+	<ul>
+		<li> Daenerys Targaryen </li>
+		<li> Jon Snow </li>
+		<li> Arya Stark </li>
+		<li> Tyrion Lannister </li>
+		<li> Cersei Lannister</li>
+	</ul>
+
+	<h3> <span style="color:darkred;"> Dead</span> Characters </h3>
+	<ol>
+		<li> Ned Stark </li>
+		<li> King Robert Baratheon </li>
+		<li> Rob Stark </li>
+		<li> Khal Drogo </li>
+	</ol>
+
+	<h3> The Starks </h3>
+	<ol type = "i">
+		<li> Eddard Stark </li>
+		<li> Catelyn Stark </li>
+		<li> Rob Stark </li>
+		<li> Sansa Stark </li>
+		<li> Arya Stark </li>
+		<li> Bran Stark </li>
+		<li> Rickon Stark </li>
+	</ol>
+
+	<h3> The Lannisters </h3>
+	<ul>
+		<li> Tywin Lannister </li>
+		<li> Jaime Lannister </li>
+		<li> Cersei Lannister </li>
+		<li> Tyrion Lannister </li>
+	</ul>
+
+	<h3> The Targaryens </h3>
+	<ul type = "circle">
+		<li> The Mad King </li>
+		<li> Rhaegar Targaryen </li>
+		<li> Viserys Targaryen </li>
+		<li> Daenerys Targaryen </li>
+	</ul>
+
+	<h3> Places in the North </h3>
+	<ul type = "square">
+		<li> Winterfell </li>
+		<li> Karhold </li>
+		<li> Deepwood Motte </li>
+		<li> Dreadfort </li>
+	</ul>
+
+	<h3> The Wall and Beyond </h3>
+	<ol type = "a">
+		<li> Castle Black </li>
+		<li> Eastwatch </li>
+		<li> Shadow Tower </li>
+		<li> Skagos </li>
+	</ol>
+
+	<h3>FFXV Characters</h3>
+	<ul style="list-style-type:disc">
+		<li>Noctis</li>
+		<li>Prompto</li>
+		<li>Ignis</li>
+		<li>Gladiolus</li>
+	</ul>
+
+	<h3>Noctis</h3>
+	<dl>
+		<dt>Apperance</dt>
+		<dd>Black/blue hair. Blue eyes. Messy hair.</dd>
+	</dl>
+</div>
+
+<div class="places">
+	<h2>Insomnia</h2>
+	<p>The capital city of the Lucis dynasty. The city is protected by a barrier, provided by the <span class="note">crystal</span>. The <span class="note">crystal</span> who has chosen the heir, Noctis, marking him a target by the Imperials.</p>
+	<p>The city now lays in ruin, thanks to the Empire's deceit.</p>
+</div>
+<div class="places">
+	<h2>Hammerhead</h2>
+	<p> An outpost, a short distance outside of the city of Insomnia. This is where <span class="note">Cid's garage</span> is located in order to upgrade your vehicle, The Regalia, and some weapons.</p>
+	<p> There is a diner there so food can be eaten, giving the party stat increases for possible ensuing battles. There is also a camper so the party can sleep in, gaining some extra EXP for spending the night there.</p>
+</div>
+<div class="places">
+	<h2>Qaldin Quay</h2>
+	<p>A port village. A great spot for Noctis to partake in his favorite past-time (but certainly not yours in the game), fishing. There is a camper outside of port but if you stay at the (very) expensive hotel, you get triple the EXP.</p>
+	<p> Dino can be found here. Doing his quests amounts in quality gems and EXP, as well as gaining an ally.</p>
+</div>
+
+	<!-- 
+	<ol> is for ordered lists, the default when type is not defined, is numerical. Can also be a (a, b, c, etc), A (A, B, C, etc), i (i, ii, iii, iv, v, etc), I (I, II, III, IV, V, etc). <ul> is for unordered lists. Will display in bullet points. Can specify if you want them to be disc, circle, square 
+	
+	<div> element is a block-level element. Often used as container for other HTML elements or to style certain sections in CSS
+
+	<span> element is used as a container for some text
+
+	-->
+
+	<h3> Where to find information about George R.R. Martin </h3>
+	<p> <a href="http://www.georgerrmartin.com" target="_blank"> George R.R. Martin </a> </p>
+	<!--
+	If you have another file called, for example, "Co-authors", in the same directory as current project, then the line of code to link to it would be <a href="co-authors.html"> More on co-authors or other assistants of works </a> 
+
+	The target attribute specifies here to open the link:
+	"_Blank" opens the link in a new window or tab
+	"_self" opens the link in the same window or tab as it was clicked on (this is default)
+	"_parent" opens the link in the parent frame
+	"_top" opens the link in the full body of the window
+	"framename" opens the link in a named frame
+	-->
+
+	<img src= "images/JonSnow.jpg" height="450" alt="Jon Snow" border="2"><br><br>
+
+	<table>
+		<caption>The Main Houses of Westeros</caption>
+		<tr>
+			<th> Starks </th>
+			<th> Lannisters </th>
+			<th> Targaryens </th>
+		</tr>
+		<tr> 
+			<td> Eddard </td>
+			<td> Tywin </td>
+			<td> Aerys </td>
+		</tr>
+		<tr>
+			<td> Rob </td>
+			<td> Jamie </td>
+			<td> Rhaegar </td>
+		</tr>
+		<tr>
+			<td> Sansa </td>
+			<td> Cersei </td>
+			<td> Viserys </td>
+		</tr>
+		<tr>
+			<td> Arya </td>
+			<td> Tyrion </td>
+			<td> Daenerys </td>
+		</tr>
+	</table>
+		<!-- Table element defines the table. tr element defines a row. td defines a datacell. Colspan attribute means "column span" and will span the cell over the number of cells that is specified (merging cells). Rowspan attribute will space across rows. -->
+
+	<h4>Your Game of Thrones Character:</h4>
+
+	<form action="/action_page.php">
+		<fieldset>
+			<legend> Character Name:</legend>
+			First name:<br>
+			<input type="text" name="firstname" value="Raenerys"><br>
+			Lastname:<br>
+			<input type="text" name="lastname" value="Stark"><br><br>
+			<input type="submit" value="Submit">
+		</fieldset>
+
+	<!-- Default width of a text input field is 20 characters -->
+
+		<p> Gender:</p>
+	
+		<input type="radio" name="gender" value="male"> Male<br>
+		<input type="radio" name="gender" value="female"> Female<br>
+		<input type="radio" name="gender" value="other"> Other<br>
+
+		<p> Hair Color:</p>
+
+		<select name="Hair color">
+			<option value="Brown">Brown</option>
+			<option value="Black">Black</option>
+			<option value="Blonde"> Blonde</option>
+			<option value="Red">Red</option>
+		</select>
+
+	<!-- To define a pre-selected option, add the selected attribute to the option so it would read... 
+	<option value="Red" selected>Red</option> -->
+
+		<p>Personality Description:</p>
+
+		<textarea name="Personality Description" rows="15" cols="45">
+Raenerys is strong willed, stubborn, and wild. She is the offspring of a union between her Stark father, and Targeryen mother.
+		</textarea><br>
+	<!-- Rows attribute specifies the visible number of lines in a text area. Cols attribute specifies the visible width of a text area -->
+		<input list="Starks">
+		<datalist id="Starks">
+			<option value="Eddard">
+			<option value="Rob">
+			<option value="Sansa">
+			<option value="Arya">
+			<option value="Bran">
+			<option value="Rickon">
+		</datalist>	<br>
+
+		<p class="red"> My character has the following houses blood flowing in his/her veins </p>
+
+		<input type="checkbox" name="House1" value="Stark"> Stark<br>
+		<input type="checkbox" name="House2" value="Lannister"> Lannister <br>
+		<input type="checkbox" name="House3" value="Targaryen"> Targaryen <br>
+		<input type="checkbox" name="House4" value="Greyjoy"> Greyjoy <br>
+		<input type="checkbox" name="House5" value="Martell"> Martell <br>
+		<input type="checkbox" name="House6" value="Tyrell"> Tyrell <br>
+		<input type="checkbox" name="House7" value="Baratheon"> Baratheon <br>
+		<input type="checkbox" name="House7" value="Tully"> Tully <br>
+		<input type="checkbox" name="House8" value="Bolton"> Bolton <br>
+		<input type="checkbox" name="House9" value="Frey"> Frey <br>
+
+		Select your Character's favorite color:
+		<input type="color" name="favcolor" value="#ff0000">
+		<!-- Depending on browser, a color picker can pop-up when you enter the input field. Can add a submit button with <input type="submit"> -->
+
+		<p> Choose a birthday for your character </p>
+
+		Birthday:
+		<input type="date" name="bday"> <br><br>
+		<!-- Can restrict dates by doing somethig like "Enter a date before 1980-01-01": <input type="date" name="bday" max="1979-12-32"><br><br> "Enter a date after 2000-01-01:" <input type="date" name="bday" min="200-01-02"><br><br> -->
+
+		Email:
+		<input type="email" name="email"><br>
+
+	</form>
+
+	<hr> <!-- <hr> defines a thematic break in an html page and is most often displayed as a horizontal rule. Used to separate content in an html page -->
+
+
+	<h2> Raenerys Stark </h2>
+
+	<p title="Raenerys Stark">
+	Her mother is a Targaryen who wanted to name her something more traditional for her house. Her father is a Stark, wed to usher a peace, to her mother. </p>
+
+	<h2> Short Sights </h2>
+
+	<pre>
+		Her voice is carried by long ago winds, across the sea of time.
+		It warns us all of what is to come should we stay the current course we've designed.
+		Few heed the words and try to desparately make us all intune. 
+		The ones in lead, scoff and continue in their destructive ways, blocking out the "loons". 
+		When diaster strikes the same ask why the event even transpired,
+		Choosing to blame the few who listened, throwing them into the fire. 
+		Too proud to admit that they were wrong, they fake that everything is running smooth,
+		Instead of bettering the world, we have turned it uncouth.
+		Driving ourselves deeper to the brink, in which there is no turning...
+	</pre>
+
+	<!-- The pre tag preserves both space ane line breaks.Good for poems -->
+
+	<p>I am normal by definition</p>
+	<p style="color:red;"> I am like the sunset, dazzling with this color.</p>
+	<p style="color:blue"> I am like the sky above on a clear, sunny day.</p>
+	<p style="font-size:42pt;"> I am like the mountains that tower tall.</p>
+
+	<hr>
+
+<!--
+<body style="background-color:black;">
+
+<h1 style="color:red;"> Blood and Fire </h1>
+
+<p style="color:white;"> Simply testing to see if I can have two bodies within one html doc and if the one can be styled while the first is not. </p> 
+
+Cannot do what I was trying. It will end up giving the background color to the entire page
+ -->
+
+ <h1 style="font-family:Algerian; font-size:300%; color:purple; text-align:center;"> Ignis's Recipah's </h1>
+
+ <p style="font-family:Baskerville Old Face;"> Step one, is to gather all the necessary ingredients.</p>
+
+<hr>
+
+	<h1> Examples of formatting </h1>
+
+	<p style="font-family:century;"> <b> The words contained here should be bold </b> </p>
+	<p style="font-family:chiller; font-size:18pt;"> <strong> Example of strong text </strong> </p>
+	<p> <i> Italic text is here </i> </p>
+	<p> <em> Emphasized text can be found here </em> </p>
+
+<!-- 
+Browsers display <strong> as <b>, and <em> as <i>. However, there is a difference in the meaning of these tags: <b> and <i> defines bold and italic text, but <strong> and <em> means that the text is "important".
+-->
+
+	<p> Certain things are more <ins> important</ins> than others. A valuable lesson learned when Sansa went through many of her trials and <mark>tribulations</mark>. None of which, was made any easier by <small> Littlefinger </small>, someone who had self-professed his friendship... and love to her.</p>
+
+	<p> The Story of FFXV via the website:</p>
+	<blockquote cite="https://www.finalfantasyxv.com/en/overview">
+	Enroute to wed his fiancée Luna on a road trip with his best friends, Prince Noctis is advised by news reports that his homeland has been invaded and taken over under the false pretense of a peace treaty – and that he, his loved one and his father King Regis, have been slain at the hands of the enemy.
+	</blockquote>
+
+	<p> FFXV: Kingsglaive is: <q>an action-packed full-length CG motion picture!</q></p>
+
+<!-- 
+<blockquote> element defines a sectio that is quoted fro another source. Browsers generally indent <blockquote> 
+
+<q> is used for short quotations. Browsers generally insert quotation marks around <q> element.
+-->
+
+	<p style="border: 1px solid maroon; padding: 4px 4px 4px 4px;" >The anime, <abbr title="Free Iwatobi Swimb Club">Free!</abbr>, is about four males starting a swimb club at their high school, Iwatobi. Three of the four have a history and used to swim together as children. </p>
+
+<!-- 
+Marking abbreviations can give useful information to browsers, translation systems, and search engines. 
+-->
+
+	<button type="button" onclick="changeinnerHTML('demo',Date())"> Click me to display Date and Time.</button>
+
+	<p id="demo"></p> 
+	<br> <br>
+
+	<p>Serenity Transportation Services</p>
+
+	<button type="button" onclick="changeinnerHTML('firefly','I am a leaf on the wind, watch how I soar.')"> Firefly Shipworks</button>
+
+	<p id="firefly"> I am to Misbehave</p>
+
+	<script>
+	function changeinnerHTML(id,content) {
+		//var htmlcontent=content;
+		//var htmlid=id;
+		document.getElementById(id).innerHTML = content;
+	}
+	</script>
+
+	<button onclick="document.getElementById('myImage').src='JohnQuincyAdams.jpg'"> Normal </button>
+
+	<img id="myImage" src="JohnQuincyAdams.jpg" style="width:200px">
+
+	<button onclick="document.getElementById('myImage').src='yeti8.jpg'"> Full Moon </button>
+
+
+</body>
+
+</html>
